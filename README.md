@@ -1,4 +1,4 @@
-# ml-decision-tree
+# ml-kmeans-clustering
 
 [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jam-Reut/ml-kmeans-clustering/HEAD?labpath=kmeans-clustering.ipynb)
 
