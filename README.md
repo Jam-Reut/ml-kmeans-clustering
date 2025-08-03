@@ -5,8 +5,18 @@
 
 ## 🚀 Projektbeschreibung
 
-Dieses Projekt führt eine ml-kmeans-clustering auf dem Werbedatensatz durch.  
-Das Ziel ist, vorherzusagen, ob ein Nutzer auf eine Anzeige klickt oder nicht.
+In diesem Projekt wird der **K Means Clustering Algorithmus** angewendet, um Universitäten in den USA automatisch in zwei Gruppen zu unterteilen: **Private** und **Öffentliche**. 
+Obwohl die tatsächliche Zugehörigkeit im Datensatz vorhanden ist, wird sie nur zur nachträglichen Bewertung verwendet, da K Means ein **Unsupervised Learning** Verfahren ist.
+Am Ende erfolgt eine Auswertung mit **Confusion Matrix** und **Classification Report**, jedoch rein theoretisch, da diese bei echten Anwendungsfällen i.d.R. nicht verfügbar wären.
+
+## Projektstruktur
+
+ml-kmeans-clustering:
+
+- kmeans-clustering.ipynb # Hauptnotebook mit Projektlösung
+- College_Data.csv # Datensatz mit Uni-Daten
+- README.md # Projektdokumentation
+
 
 ### 🔧 Ausführen
 
@@ -17,6 +27,6 @@ Das Ziel ist, vorherzusagen, ob ein Nutzer auf eine Anzeige klickt oder nicht.
 
 ### 🎯 Ergebnis
 
-- Modelltraining mit Scikit-Learn
-- Visualisierung mit Matplotlib und Seaborn
-- Klassifikationsergebnisse und Metriken (Accuracy, Confusion Matrix)
+- Der Algorithmus gruppiert Universitäten anhand ihrer Merkmale in zwei Cluster. 
+- Eine Auswertung zeigt, wie gut diese Cluster mit den tatsächlichen Labels (private/public) übereinstimmen.
+
